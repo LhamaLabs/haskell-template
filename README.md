@@ -29,3 +29,6 @@ Roda os arquivos em exemplo.
 
 ### Caso queira acessar o terminal do Container
 - `make run bash`
+
+### Caso queira iniciar o GHCi com um arquivo compilado
+- `make compile <nome do arquivo>`
