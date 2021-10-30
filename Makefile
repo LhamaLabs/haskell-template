@@ -17,5 +17,9 @@ bash:
 run:
 	@docker exec -it haskell_docker runhaskell /home/haskell/project/src/$(filter-out $@,$(MAKECMDGOALS)).hs
 
+# run GHCI with the file
+compile:
+	@docker exec -it haskell_docker ghci /home/haskell/project/src/$(filter-out $@,$(MAKECMDGOALS)).hs
+
 %:
 	@:
