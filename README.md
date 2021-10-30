@@ -14,9 +14,12 @@ Para começar rode os comandos a primeira vez:
 ### Execute seus arquivos
 
 - `make run <nome do arquivo>` = Executa o arquivo em src
+
 EX:
 > make run hello
+
 ou
+
 > make run ola
 Roda os arquivos em exemplo.
 
