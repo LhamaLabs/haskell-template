@@ -21,6 +21,7 @@ EX:
 ou
 
 > make run ola
+
 Roda os arquivos em exemplo.
 
 ### Caso queira o GHCi
